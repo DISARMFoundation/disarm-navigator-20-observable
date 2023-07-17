@@ -219,6 +219,7 @@ export class DataService {
     // URLs in case config file doesn't load properly
     private latestVersion: Version = { name: "ATT&CK v13", number: "13" };
     private lowestSupportedVersion: Version;
+    private disarmAttackURL: string = "http://192.168.2.12:8000/DISARM.json";
     private enterpriseAttackURL: string = "https://raw.githubusercontent.com/mitre/cti/master/enterprise-attack/enterprise-attack.json";
     private mobileAttackURL: string = "https://raw.githubusercontent.com/mitre/cti/master/mobile-attack/mobile-attack.json";
     private icsAttackURL: string = "https://raw.githubusercontent.com/mitre/cti/master/ics-attack/ics-attack.json";
@@ -248,10 +249,11 @@ export class DataService {
 
         if (this.domains.length == 0) { // issue loading config
             this.versions.push(this.latestVersion);
+            let disarmDomain = new Domain("DISARM", "DISARM", this.latestVersion, [this.disarmAttackURL]);
             let enterpriseDomain = new Domain("enterprise-attack", "Enterprise", this.latestVersion, [this.enterpriseAttackURL]);
             let mobileDomain = new Domain("mobile-attack", "Mobile", this.latestVersion, [this.mobileAttackURL]);
             let icsDomain = new Domain("ics-attack", "ICS", this.latestVersion, [this.icsAttackURL]);
-            this.domains.push(...[enterpriseDomain, mobileDomain, icsDomain]);
+            this.domains.push(...[disarmDomain, enterpriseDomain, mobileDomain, icsDomain]);
         }
 
         this.lowestSupportedVersion = this.versions[this.versions.length-1];

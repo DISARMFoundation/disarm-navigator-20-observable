@@ -5,7 +5,7 @@
         <span class="bannerContent" role="alert" [innerHTML]="bannerContent"></span>
         <div [style.margin-bottom]="hasFeature('tabs') ? '0px' : '15px'" class="bannerLinks">
             <div>
-                <a href="http://attack.mitre.org">MITRE ATT&CK&reg; Navigator</a>
+                <a href="https://www.disarm.foundation/">DISARM Navigator</a>
             </div>
         </div>
     </div>
@@ -76,11 +76,11 @@
     <div class="newTab">
         <div class="description">
             <div class="logo">
-                <h1><a href="http://attack.mitre.org">MITRE ATT&CK&reg; Navigator</a></h1>
+                <h1><a href="https://www.disarm.foundation/">DISARM Navigator</a></h1>
             </div>
             <div>
                 <p>
-                    The ATT&CK Navigator is a web-based tool for annotating and exploring ATT&CK matrices. It can be
+                    The DISARM Navigator is a web-based tool for annotating and exploring DISARM matrices. It can be
                     used to visualize defensive coverage, red/blue team planning, the frequency of detected techniques,
                     and more.
                 </p>
@@ -155,7 +155,7 @@
                                     </mat-select>
                                 </mat-form-field>
                                 <div>
-                                    <em>* Official ATT&CK Versions prior to {{ds.lowestSupportedVersion.name}} are not supported by Navigator v{{nav_version}}.</em>
+                                    <em>* Official DISARM Versions prior to {{ds.lowestSupportedVersion.name}} are not supported by Navigator v{{nav_version}}.</em>
                                 </div>
                             </td>
 
@@ -168,7 +168,7 @@
                                 </mat-form-field>
                                 <mat-form-field>
                                     <input type="number" matInput placeholder="Version number" [(ngModel)]="loadData.version"/>
-                                    <mat-hint>ATT&CK version (e.g. 12)</mat-hint>
+                                    <mat-hint>DISARM version (e.g. 12)</mat-hint>
                                 </mat-form-field>
                                 <mat-form-field>
                                     <input type="text" matInput placeholder="Domain" [(ngModel)]="loadData.identifier"/>
@@ -421,7 +421,7 @@
                         Create Customized Navigator
                     </mat-panel-title>
                     <mat-panel-description>
-                        Create a hyperlink to a customized ATT&CK Navigator
+                        Create a hyperlink to a customized DISARM Navigator
                     </mat-panel-description>
                 </mat-expansion-panel-header>
 

@@ -357,7 +357,7 @@ export class TabsComponent implements AfterContentInit, AfterViewInit {
                     // create or retrieve version
                     let v: Version = this.dataService.versions.find(v => v.number == loadData.version);
                     if (!v) {
-                        v = new Version(`ATT&CK v${loadData.version}`, String(loadData.version));
+                        v = new Version(`DISARM v${loadData.version}`, String(loadData.version));
                         this.dataService.versions.push(v);
                     }
         
@@ -397,7 +397,7 @@ export class TabsComponent implements AfterContentInit, AfterViewInit {
             let exists = this.dataService.domains.find(d => d.id == domainVersionID);
             // Note: if a user inputs the same domain, version, AND url, do not check for collisions, just reload the custom dataset
             if (exists && !(exists.isCustom && exists.urls[0] == url.toString())) {
-                throw {message: `the domain and version specified conflict with an existing set of ATT&CK data (${exists.name} ${exists.version.name})`};
+                throw {message: `the domain and version specified conflict with an existing set of DISARM data (${exists.name} ${exists.version.name})`};
             }
 
             return true;

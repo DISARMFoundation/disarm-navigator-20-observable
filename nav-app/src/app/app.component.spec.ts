@@ -18,9 +18,9 @@ describe('AppComponent', () => {
     const app = fixture.debugElement.componentInstance;
     expect(app).toBeTruthy();
   }));
-  it(`should have as title 'ATT&CK® Navigator'`, waitForAsync(() => {
+  it(`should have as title 'DISARM Navigator'`, waitForAsync(() => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('ATT&CK® Navigator');
+    expect(app.title).toEqual('DISARM Navigator');
   }));
 });

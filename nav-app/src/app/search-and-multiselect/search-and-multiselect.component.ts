@@ -37,7 +37,7 @@ export class SearchAndMultiselectComponent implements OnInit {
             "enabled": true
         },
         {
-            "label": "ATT&CK ID",
+            "label": "DISARM ID",
             "field": "attackID",
             "enabled": true
         },
