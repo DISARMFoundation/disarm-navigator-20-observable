@@ -1,12 +1,13 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Buffer } from 'buffer';
-import { forkJoin } from 'rxjs';
-import { Observable } from "rxjs/Rx";
-import { fromPromise } from 'rxjs/observable/fromPromise';
+import { Observable, forkJoin, from } from 'rxjs';
 import { TaxiiConnect, Collection } from '../taxii2lib';
-import { Campaign, Domain, DataComponent, Group, Software, Matrix, Technique, Mitigation, Note } from "../classes/stix";
+import {
+  Campaign, Domain, DataComponent, Group, Software, Matrix, Technique, Mitigation, Note
+} from '../classes/stix';
 import { Version, VersionChangelog } from '../classes';
+
 
 @Injectable({
     providedIn: 'root',
@@ -287,7 +288,7 @@ export class DataService {
                 'media_types': ['application/vnd.oasis.stix+json']
             }
             const collection = new Collection(collectionInfo, domain.taxii_url + 'stix', conn);
-            this.domainData$ = Observable.forkJoin(fromPromise(collection.getObjects('', undefined)));
+            this.domainData$ = forkJoin(from(collection.getObjects('', undefined)));
         } else if (refresh || !this.domainData$) {
             console.log("retrieving data", domain.urls)
             let bundleData = [];
@@ -301,7 +302,7 @@ export class DataService {
             domain.urls.forEach((url) => {
                 bundleData.push(this.http.get(url, httpOptions));
             });
-            this.domainData$ = Observable.forkJoin(bundleData);
+            this.domainData$ = forkJoin(bundleData);
         }
         return this.domainData$;
     }
