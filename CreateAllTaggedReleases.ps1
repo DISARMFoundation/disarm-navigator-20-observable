@@ -1,0 +1,2 @@
+.\CreateTaggedRelease.ps1 -CommitHash 056dc30 -TagName v2.0.0 -TagMessage "Initial commit of demo 2.0 observations framework including GitHub pages" 
+.\CreateTaggedRelease.ps1 -CommitHash 3626444 -TagName v2.0.1 -TagMessage "Working version of 2.0 Navigator after several code changes for library compatibility with Node.js 16.20.2 (stable)"

@@ -1,0 +1,500 @@
+  302  npm explain @babel/traverse
+  303  npm audit fix
+  304  npm audit
+  305  npm audit report
+  306  pwd
+  307  npm ls elliptic
+  308  npm explain elliptic
+  309  npm explain elliptic --all
+  310  pwd
+  311  pwd
+  312  ls -lt
+  313  npm cache clean --force
+  314  npm install
+  315  npm audit
+  316  npm ls loader-utils
+  317  npm explain loader-utils
+  318  npm audit
+  319  pwd
+  320   npm i --package-lock-only
+  321  npm install --package-lock-only --legacy-peer-deps
+  322  npm audit
+  323  npm audit fix
+  324  npm audit --json > audit-report.json
+  325  pwd
+  326  pwd
+  327  ng serve --project=nav-app
+  328  npm install
+  329  ng serve --project=nav-app
+  330  pwd
+  331  ls -lt
+  332  rm -rf node_modules package-lock.json
+  333  npm cache clean --force
+  334  npm install --legacy-peer-deps
+  335  npm audit
+  336  rm -rf node_modules package-lock.json
+  337  npm cache clean --force
+  338  npm install --legacy-peer-deps
+  339  npm ls loader-utils
+  340  npm audit
+  341  pwd
+  342  npx ng serve --project=nav-app
+  343  node -v
+  344  pwd
+  345  rm -rf node_modules package-lock.json
+  346  npm install --legacy-peer-deps
+  347  npm start
+  348  pwd
+  349  cd ..
+  350  cd ..
+  351  ls
+  352  pwd
+  353  git clone https://github.com/DISARMFoundation/disarm-stix-20-observable.git
+  354  ls -lt
+  355  cd disarm-stix-20-observable/
+  356  git status
+  357  ls -lt
+  358  cd output
+  359  ls -lt
+  360  cd ..
+  361  pwd
+  362  cd ..
+  363  ls
+  364  cd disarm-navigator-20-observable/
+  365  ls -tl
+  366  cd nav-app
+  367  ls
+  368  cd src
+  369  ls
+  370  cd assets
+  371  ls -lt
+  372  more DISARM.json
+  373  less DISARM.json
+  374  cd ..
+  375  cd ..
+  376  cd ..
+  377  cd ..
+  378  cd disarm-stix-20-observable/
+  379  ls
+  380  cd output
+  381  ls -lt
+  382  less DISARM.json
+  383  pwd
+  384  cd ..
+  385  ls -lt
+  386  pwd
+  387  cd output
+  388  tail DISARM.json
+  389  tail -1000 DISARM.json | less
+  390  pwd
+  391  cd ..
+  392  pwd
+  393  ls -lt
+  394  git status
+  395  python3 main.py
+  396  pwd
+  397  cd output
+  398  ls -lt
+  399  cd x-mitre-matrix/
+  400  dir
+  401  ls -l
+  402  cd ..
+  403  ls
+  404  ls -lt
+  405  cd ..
+  406  cd ..
+  407  ls
+  408  cd disarm-navigator-20-observable/
+  409  ls
+  410  cd nav-app
+  411  ls
+  412  cd src
+  413  cd assets
+  414  ls -lt
+  415  cd ..
+  416  cd ..
+  417  npm start
+  418  pwd
+  419  ng build --project=nav-app --prod --output-path docs --base-href=/disarm-navigator-20-observable/
+  420  npx ng build --project=nav-app --prod --output-path docs --base-href=/disarm-navigator-20-observable/
+  421  git status
+  422  ls -lt
+  423  date
+  424  cd docs
+  425  ls -lt
+  426  cd ..
+  427  git status
+  428  pwd
+  429  git add docs/
+  430  git stats
+  431  git status
+  432  git add package.json
+  433  git add src/assets/DISARM.json
+  434  git add src/assets/config.json
+  435  git status
+  436  ls -lt package-lock.json 
+  437  ls -lt ../package-lock.json 
+  438  pwd
+  439  git add package-lock.json 
+  440  cd ..
+  441  pwd
+  442  ls
+  443  rm package-lock.json 
+  444  cd nav-app/
+  445  git status
+  446  git remote -v
+  447  git status
+  448  git remote set-url origin git@github.com:DISARMFoundation/disarm-navigator-20-observable.git
+  449  git remote -v
+  450  git branch
+  451  git commit -m "Initial commit of demo 2.0 observable version including GitHub Pages"
+  452  git status
+  453  git push
+  454  scp
+  455  cd
+  456  pwd
+  457  cd .ssh
+  458  ls -lt
+  459  cd ..
+  460  scp stephen@192.168.132.128:~/.ssh/id_rsa ~/.ssh/
+  461  pwd
+  462  scp stephen@192.168.132.128:~/.ssh/id_rsa ~/.ssh/
+  463  cd .ssh
+  464  ls -lta
+  465  cd .ssh
+  466  dir -a
+  467  pwd
+  468  cd ..
+  469  ls -lt
+  470  ls -lta
+  471  cd .ssh
+  472  ls -al
+  473  cd ./
+  474  ls -lt
+  475  less known_hosts 
+  476  cd
+  477  pwd
+  478  cd OneDrive/
+  479  cd GitHub
+  480  cd Documents
+  481  cd GitHub/
+  482  ls
+  483  cd disarm-navigator-20-observable/
+  484  git status
+  485  git push
+  486  pwd
+  487  cd
+  488  scp -v stephen@192.168.132.128:~/.ssh/id_rsa ~/.ssh/
+  489  cd ~/.ssh
+  490  pwd
+  491  ls -lta
+  492  pwd
+  493  cd ..
+  494  cd
+  495  pwd
+  496  scp -0 stephen@192.168.132.128:~/.ssh/id_rsa ~/.ssh/
+  497  scp -O stephen@192.168.132.128:~/.ssh/id_rsa ~/.ssh/
+  498  pwd
+  499  cd ~.ssh
+  500  ls -alt
+  501  cd .ssh
+  502  ls -lt
+  503  eval "$(ssh-agent -s)"
+  504  ssh-add ~/.ssh/id_rsa
+  505  ssh -T git@github.com
+  506  pwd
+  507  cd ..
+  508  ls
+  509  cd OneDrive/Documents/GitHub/
+  510  ls
+  511  cd disarm-navigator-20-observable/
+  512  git status
+  513  git push
+  514  pwd
+  515  cd nav-app/
+  516  ls -lt
+  517  cd docs
+  518  ls -alt
+  519  touch .nojekyll
+  520  ls -alt
+  521  git add .nojekyll 
+  522  git commit -m "Disable Jekyll for GitHub Pages"
+  523  cd ..
+  524  git push
+  525  git status
+  526  ls /docs
+  527  ls ./docs
+  528  git branch -a
+  529  git status
+  530  pwd
+  531  git add docs/
+  532  git commit -m "Build draft site for DISARM 2.0 observable wth GitHub Pages in docs"
+  533  git push origin master
+  534  pwd
+  535  git checkout gh-pages
+  536  git checkout gh-pages
+  537  git status
+  538  pwd
+  539  git checkout main -- docs
+  540  git checkout master -- docs
+  541  git commit -m "Add built docs to gh-pages"
+  542  git push origin gh-pages
+  543  git status
+  544  git add .
+  545  git commit -m "added some files"
+  546  git push
+  547  pwd
+  548  git checkout master
+  549  git status
+  550  git add ../layers/data/
+  551  git add ../layers/update-layers.py
+  552  git status
+  553  git commit -m "missed some layers files"
+  554  git push
+  555  git checkout master
+  556  cd docs
+  557  ls -al
+  558  git status
+  559  git commit -m "last attempt"
+  560  git push
+  561  git status
+  562  git checkout gh-pages
+  563  pwd
+  564  ls -lt
+  565  touch .nojekyll
+  566  git add .nojekyll
+  567  git commit -m "Adding .nojekyll file to gh-pages branch"
+  568  pwd
+  569  ls -lta
+  570  git push
+  571  git push origin gh-pages
+  572  pwd
+  573  ls -al
+  574  pwd
+  575  git status
+  576  pwd
+  577  cd ..
+  578  ls -lt
+  579  more angular.json
+  580  less angular.json
+  581  grep DISARM *.json
+  582  less angular.json
+  583  cd docs
+  584  ls
+  585  ls -lts
+  586  more index.html
+  587  less index.html
+  588  cd assets
+  589  pwd
+  590  ls -tl
+  591  less config.json
+  592  less DISARM.json 
+  593  pwd
+  594  pwd
+  595  git status
+  596  cd ..
+  597  cd ..
+  598  pwd
+  599  git checkout master
+  600  npx ng build --project=nav-app --prod --output-path docs --base-href=/disarm-navigator-20-observable/
+  601  pwd
+  602  git checkout gh-pages
+  603  cp -r ../docs/* .
+  604  pwd
+  605  git status
+  606  git add .
+  607  git commit -m "trying again to build"
+  608  git push
+  609  pwd
+  610  cd docs
+  611  ls -lt
+  612  touch .nojekyll
+  613  git add .nojekyll
+  614  git commit -m "add .nojekyll"
+  615  git push
+  616  pwd
+  617  cd ..
+  618  git checkout master
+  619  git status
+  620  ls -alt docs/
+  621  pwd
+  622  git status
+  623  ls docs
+  624  git status
+  625  ls -al docs
+  626  less .gitignore
+  627  pwd
+  628  git status
+  629  npx ng build --project=nav-app --prod --output-path ../docs --base-href=/disarm-navigator-20-observable/
+  630  cd ..
+  631  touch docs/.nojekyll
+  632  git add docs
+  633  git commit -m "Move docs/ to root for GitHub Pages"
+  634  git push origin master
+  635  less docs/index.html
+  636  pwd
+  637  cd nav-app/
+  638  npx ng build --prod --output-path ../docs --base-href=/disarm-navigator-20-observable/
+  639  less docs/index.html
+  640  npx ng build --prod --output-path ../docs --base-href=~/OneDrive/Documents/GitHub/disarm-navigator-20-observable/
+  641  less docs/index.html
+  642  npx ng build --prod --output-path ../docs --base-href="/disarm-navigator-20-observable/"
+  643  less docs/index.html
+  644  less docs/index.html
+  645  less docs/index.html
+  646  pwd
+  647  cd ..
+  648  less docs/index.html
+  649  ls -lta docs
+  650  pwd
+  651  touch docs/.nojekyll
+  652  git add docs
+  653  gt commit -m "Correct base href in index.html"
+  654  git commit -m "Correct base href in index.html"
+  655  git push origin master
+  656  pwd
+  657  less docs/index.html
+  658  cd nav-app
+  659  cd src
+  660  cd assets
+  661  ls -lt
+  662  cd ..
+  663  cd ..
+  664  ls -lt
+  665  cd ..
+  666  ls -lt
+  667  cd docs
+  668  ls -lt
+  669  pwd
+  670  cd ..
+  671  cd nav-app
+  672  ls -lt
+  673  grep forkJoin *.js
+  674  cd src
+  675  grep forkJoin *.js
+  676  ls
+  677  grep forkJoin *.ts
+  678  cd app
+  679  ls
+  680  grep forkJoin *.ts
+  681  ls -R | grep "main-es2018.b0d9423"
+  682  cd layer-information/
+  683  ls
+  684  cd ..
+  685  cd classes
+  686  ls
+  687  cd stix
+  688  ls
+  689  cd ..
+  690  pwd
+  691  cd ..
+  692  pwd
+  693  cd ..
+  694  ls
+  695  cd assets
+  696  ls
+  697  cd .
+  698  cd ..
+  699  cd environments/
+  700  ls
+  701  more environment.ts
+  702  less environment.ts
+  703  cd ..
+  704  pwd
+  705  ls
+  706  cd app
+  707  ls
+  708  grep forkJoin *
+  709  cd services/
+  710  ls
+  711  grep forkJoin *
+  712  code data.service.ts
+  713  cd ..
+  714  cd ..
+  715  cd ..
+  716  ls -lt ../docs
+  717  touch ../docs/.nojekyll
+  718  cd ..
+  719  git add docs
+  720  git commit -m "added import for forkJoin in data.service.ts"
+  721  git status
+  722  git add nav-app/src/app/services/data.service.ts
+  723  git commit -m "added import for forkJoin in data.service.ts"
+  724  git status
+  725  git push
+  726  pwd
+  727  ls
+  728  cd nav-app/
+  729  ls
+  730  cd src
+  731  ls
+  732  cd app
+  733  ls
+  734  cd matrix
+  735  ls
+  736  grep forkJoin *
+  737  cd matrix-side
+  738  ls
+  739  grep forkJoin *
+  740  cd ..
+  741  cd ..
+  742  cd ..
+  743  pwd
+  744  cd ..
+  745  cd ..
+  746  git status
+  747  touch docs/.nojekyll
+  748  git add nav-app/src/app/services/data.service.ts
+  749  git add docs/
+  750  git status
+  751  git commit -m "amended code for forkJoin" 
+  752  git push
+  753  git status
+  754  git commit -a -m "Uploaded Adam's master Excel file fo3 DISARM 2.0 Observations"
+  755  git push
+  756  git status
+  757  git status
+  758  touch docs/.nojekyll
+  759  git status
+  760  git add docs/
+  761  git status
+  762  git commit -m "Rebuilt application after uploading Adam's master Excel and changing app to DISARM 2.0 Observations"
+  763  git push
+  764  git status
+  765  git status
+  766  touch docs/.nojekyll
+  767  git status
+  768  git add nav-app/src/assets/DISARM.json
+  769  git ad docs/
+  770  git add docs/
+  771  git status
+  772  git commit -a -m "Fixed TA29 assignments which were wrongly assigned to TA27"
+  773  git push
+  774  git status
+  775  touch docs/.nojekyll
+  776  git add nav-app/src/assets/DISARM.json
+  777  git add docs/
+  778  git status
+  779  git commit -m "Adam fixed some issues with TA29, TA30, TA31"
+  780  git push
+  781  git status
+  782  touch docs/.nojekyll
+  783  cd nav-app
+  784  cd src
+  785  cd assets
+  786  ls -lt
+  787  cd ..
+  788  cd ..
+  789  pwd
+  790  cd ..
+  791  git status
+  792  touch docs/.nojekyll
+  793  git status
+  794  git add nav-app/src/assets/DISARM.json
+  795  git add docs/assets/DISARM.json
+  796  git status
+  797  git commit -m "Amended name for T0016.000 as a test"
+  798  git status
+  799  git push
+  800  pwd
+  801  history > gitbash_history_DISARM20_observable_framework.txt

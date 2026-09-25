@@ -1,0 +1,1 @@
+#.\CreateTaggedReleaseRevised.ps1 -CommitHash 3626444 -TagName v2.0.2 -TagMessage "Last update was July 3 so the navigator for 20 observable does not contain the TIS updates, but the -mv navigator DOES because it points to the stix-20 repository"

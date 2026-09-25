@@ -1,0 +1,9 @@
+cd C:\Users\steph\OneDrive\Documents\GitHub\disarm-navigator-20-observable
+cd nav-app
+npx ng build --prod --output-path ../docs --base-href=/disarm-navigator-20-observable/
+npx ng build --prod --output-path=../docs --base-href=/disarm-navigator-20-observable/
+npx ng build --prod --output-path ../docs --base-href=/disarm-navigator-20-observable/
+npx ng build --prod --output-path=../docs --base-href=/disarm-navigator-20-observable/
+history | less
+cd ..
+doskey /history > history.DISARM20.observable.framework.txt
